@@ -1,0 +1,35 @@
+a:hover{text-decoration: none;}
+html,body{overflow-x: hidden;overflow-y: auto;}
+
+
+/*middle*/
+.show-me{display:none}
+::placeholder{font-size: 13px;}
+.show-for-front{display:none;}
+.hide{transform: translateX(170%);}
+.bill{position:fixed}
+.first{width:40%;margin-left:25%}
+.second{width:40%;margin-left:23%}
+.third{width:50%;}
+
+@media screen and (max-width:1200px){
+    img{height:150px}
+    .bill{position: relative;}
+}
+@media screen and (max-width:991px){
+
+    }
+    @media screen and (max-width:1200px){
+        .first{width:40%;margin-left:25%}
+        .second{width:40%;margin-left:23%}
+        .third{width:60%;}
+    }
+    @media screen and (max-width:767px){
+        .first{width:60%;margin-left:25%}
+        .second{width:40%;margin-left:23%}
+        .third{width:80%;}
+    }
+    @media screen and (max-width:576px){
+        .second{width:60%;margin-left:23%}
+        .third{width:80%;}
+    }
